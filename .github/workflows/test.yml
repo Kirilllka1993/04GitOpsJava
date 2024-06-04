@@ -17,7 +17,7 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
       - name: Run the Maven verify phase
-        run: mvn --batch-mode --update-snapshots verify
+        run: mvn -f /test/pom.xml --batch-mode --update-snapshots verify
       - name: Upload report
         uses: actions/upload-artifact@v2
         with:
