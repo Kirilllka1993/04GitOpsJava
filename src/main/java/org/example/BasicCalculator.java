@@ -3,7 +3,7 @@ package org.example;
 public class BasicCalculator {
 
     public Double calculate(char op, double num1, double num2) {
-        System.out.println("Hello Git");
+        System.out.println("Hello Git 1");
         Double o = 0.0;
         switch (op) {
             // case to add two numbers
