@@ -9,7 +9,7 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout action
+      - name: Checkout action 2
         uses: actions/checkout@v2
       - name: Set JDK 11
         uses: actions/setup-java@v2
